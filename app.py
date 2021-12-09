@@ -19,7 +19,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 config = {
   'host':'newjournydb.mysql.database.azure.com',
   'user':'adminuser@newjournydb',
-  'password':'<password>',
+  'password':'root123!',
   'database':'journey-db',
   'ssl_ca': os.path.join(dir_path, 'ssl', 'BaltimoreCyberTrustRoot.crt.pem'),
   'ssl_verify_cert': 'true',
